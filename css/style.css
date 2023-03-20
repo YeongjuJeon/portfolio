@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR:wght@700&display=swap');
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{font-family: 'Nanum Gothic', sans-serif;}
+a{text-decoration: none;}
+ul,li{list-style: none;}
+
+.container{
+    width: 1280px;
+    height: auto;
+    margin: 0 auto;
+    /* background-color: rgba(0,0,0,0.1); */
+}
+header{}
+#section1{
+    width: 100%;
+    height: 1024px;
+    background: url('../img/artur-luczka-loAfOVk1eNc-unsplash.jpg') no-repeat center/cover;
+}
+
+#section1 h2{
+    font-size: 30px;
+    text-align: right;
+    color: #fff;
+    line-height: 45px;
+    position: relative;
+    top: 270px;
+}
+#section1 h1{
+    font-size: 80px;
+    text-align: right;
+    color: #fff;
+    position: relative;
+    top: 270px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+}
+#section2{
+    margin-top: -3px;
+    width: 100%;
+    height: auto;
+    color: #333;
+    background: url('../img/bg.png') no-repeat top center/cover;
+}
+#section2>.container{
+    display: flex;
+    padding: 100px 0;
+}
+.s2-left{
+    width: 48%;
+    /* background-color: bisque; */
+    margin-right: 2%;
+}
+.s2-left>h3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #333;
+    margin-bottom: 30px;
+}
+.profile-box::after{
+    display: block;
+    content: '';
+    clear: both;
+}
+.profile-box>img{
+    display: block;
+    width: 100px;
+    float: left;
+    margin-right: 30px;
+}
+.pb-right{
+    float: left;
+}
+.pb-right h4{
+    color: #333;
+    font-size: 20px;
+    font-weight:200;
+    margin: 5px 0;
+}
+.pb-right h4:first-child{
+    margin-top: 20px;
+}
+.skill-box{
+    clear: both;
+    margin-top: 55px;
+}
+.skill-box>h5{
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #333;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.skills::after{
+    display: block;
+    content: '';
+    clear: both;
+}
+.skills img{
+    width: 50px;
+    margin-right: 10px;
+}
+.skills img:nth-child(4){
+    width: 60px;
+}
+.skills img:nth-child(5){
+    width: 44px;
+}
+.skills img:nth-child(6){
+    width: 100px;
+    margin-left: -15px;
+}
+.skills img:nth-child(7){
+    width: 70px;
+    margin-left: -20px;
+}
+
+.s2-right{
+    width: 50%;
+    /* background-color: aqua; */
+}
+.s2-right h6{
+    color: #333;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.s2-right p{
+    color: #000;
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.s3-left{
+    width: 50%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s3mockupbox{
+    display: block;
+    width: 90%;
+    height: 450px;
+    margin-right: 10%;
+    /* background-color:#fff; */
+    background: url('../img/gyeongju.png') no-repeat center/cover;
+    border-radius: 20px;
+    box-shadow: 0 5px 40px #222;
+    position: relative;
+}
+.s3mockupbox::after{
+    content: '경주시청';
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #111;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0,0,0,0.2);
+    opacity: 0;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+.s3mockupbox:hover:after{
+    opacity: 1;
+}
+.s3-right{
+    width: 50%;
+}
+.s3-right h4{
+    color: #333;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.s3-right span{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 40px;
+}
+.s3-right p{
+    color: #333;
+    font-size: 18px;
+    line-height: 30px;
+    /* margin-bottom 차후에 조정 */
+    margin-bottom: 45px;
+}
+.s3-right a{
+    font-size: 17px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 2px solid #1739b1;
+    background: rgba(255,255,255,0.2);
+    color: #000;
+    margin: 0 10px 10px 0;
+    transition: all 0.2s;
+}
+.s3-right a:hover{
+    background-color: #1739b1;
+    color: #fff;
+}
+
+.s4-right{
+    width: 50%;
+    /* background-color: aqua; */
+    position: relative;
+}
+.s4mockupbox{
+    display: block;
+    width: 90%;
+    height: 450px;
+    margin-left: 10%;
+    /* background-color: #fff; */
+    background: url('../img/wdressroom.png') no-repeat center/cover;
+    border-radius: 20px;
+    box-shadow: 0 5px 40px #222;
+    position: relative;
+}
+.s4mockupbox::after{
+    content: 'W.Dressroom';
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #333;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0,0,0,0.2);
+    opacity: 0;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+.s4mockupbox:hover:after{
+    opacity: 1;
+}
+.s4-left{
+    width: 50%;
+}
+.s4-left h4{
+    color: #333;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.s4-left span{
+    display: block;
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.s4-left p{
+    color: #333;
+    font-size: 18px;
+    line-height: 30px;
+}
+.s5-left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s5mockupbox{
+    display: block;
+    width: 90%;
+    height: 450px;
+    margin-right: 10%;
+    background: url('../img/museum.png') no-repeat center/cover;
+    border-radius: 20px;
+    box-shadow: 0 5px 40px #222;
+    position: relative;
+}
+.s5mockupbox::after{
+    content: '국립중앙박물관';
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0,0,0,0.2);
+    opacity: 0;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+.s5mockupbox:hover:after{
+    opacity: 1;
+}
+.s5-right{
+    width: 50%;
+}
+.s5-right h4{
+    color: #333;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.s5-right span{
+    display: block;
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.s5-right p{
+    color: #333;
+    font-size: 18px;
+    line-height: 30px;
+}
+.s6-right{
+    width: 50%;
+    position: relative;
+}
+.s6mockupbox{
+    display: block;
+    width: 90%;
+    height: 450px;
+    margin-left: 10%;
+    background: url('../img/etude_mockup.png') no-repeat center/cover;
+    border-radius: 20px;
+    box-shadow: 0 5px 40px #222;
+    position: relative;
+}
+.s6mockupbox::after{
+    content: 'Etude House';
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #111;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0,0,0,0.2);
+    opacity: 0;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+.s6mockupbox:hover:after{
+    opacity: 1;
+}
+.s6-left{
+    width: 50%;
+}
+.s6-left h4{
+    color: #333;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.s6-left span{
+    display: block;
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.s6-left p{
+    color: #333;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: auto;
+}
+.container.logos{
+    display: block;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.logos h4{
+    font-size: 40px;
+}
+.logos div{
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #555;
+}
+.logos div:nth-child(3){margin-right: 0;}
+.logos div:nth-child(6){margin-right: 0;}
+.logos div:hover img{
+    transform: scale(1.2);
+}
+.logos img{
+    display: inline-block;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.gongcha{
+    width: 100%;
+    height: 850px;
+    position: relative;
+    background: #FFF8EE url('../img/gongcha.png') no-repeat center/contain;
+}
+.gongcha h5{display: none;}
+.gongcha .container a{
+    position: absolute;
+    bottom: 200px;
+    right: 200px;
+    display: block;
+    font-size: 20px;
+    padding: 15px 30px;
+    border: 2px solid #C32033;
+    border-radius: 30px;
+    transition: all 0.3s;
+}
+.gongcha .container a:hover{
+    background-color: #C32033;
+    color: #fff;
+}
+footer{
+    padding: 50px;
+    width: 100%;
+    height: 400px;
+    background: url('../img/artur-luczka-loAfOVk1eNc-unsplash.jpg') no-repeat center/cover;
+}
+footer h3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.fbox p{
+    color: #000;
+    font-size: 25px;
+    display: inline-block;
+    line-height: 50px;
+}
+.fbox img{
+    display: inline-block;
+    width: 35px;
+    vertical-align:middle;
+    margin-right: 10px;
+}

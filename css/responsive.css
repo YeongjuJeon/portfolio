@@ -1,0 +1,269 @@
+@media screen and (max-width: 1280px){
+    .container{
+        width: 100%;
+        padding: 50px;
+    }
+    #section2>.container{
+        width: 100%;
+        padding: 30px 50px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    #section2>.container{
+        display: block;
+    }
+    .s2-left{
+        width: 100%;
+        margin-right: 0%;
+    }
+    .s2-right{
+        width: 100%;
+        margin: 50px 0;
+    }
+    .s2-right h6{
+        font-size: 30px;
+    }
+    .s3-left{width: 100%;}
+    .s3mockupbox{
+        display: block;
+        width: 100%;
+        height: 500px;
+        margin-right: 0%;
+        background: url('../img/gyeongju.png') no-repeat center/cover;
+        border-radius: 20px;
+        box-shadow: 0 5px 40px #222;
+        position: relative;
+    }
+    .s3-right{
+        width: 100%;
+        margin: 50px 0;
+    }
+    .s3-right{
+        width: 100%;
+    }
+    .s4-left{
+        width: 100%;
+    }
+    .s4mockupbox{
+        display: block;
+        width: 100%;
+        height: 500px;
+        margin-left: 0%;
+        background: url('../img/wdressroom.png') no-repeat center/cover;
+        border-radius: 20px;
+        box-shadow: 0 5px 40px #222;
+        position: relative;
+    }
+    .s4-right{
+        width: 100%;
+        position: relative;
+        margin: 50px 0;
+    }
+    .s5-left{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .s5mockupbox{
+        display: block;
+        width: 100%;
+        height: 500px;
+        margin-right: 0%;
+        background: url('../img/museum.png') no-repeat center/cover;
+        border-radius: 20px;
+        box-shadow: 0 5px 40px #222;
+        position: relative;
+    }
+    .s5-right{
+        width: 100%;
+        margin: 50px 0;
+    }
+    .s6-right{
+        width: 100%;
+        position: relative;
+    }
+    .s6mockupbox{
+        display: block;
+        width: 100%;
+        height: 500px;
+        margin-left: 0%;
+        background: url('../img/etude_mockup.png') no-repeat center/cover;
+        border-radius: 20px;
+        box-shadow: 0 5px 40px #222;
+        position: relative;
+        margin: 50px 0;
+    }
+    .s6-left{
+        width: 100%;
+    }
+    #section2>.container.logos{
+        display: block;
+        width: 500x;
+        margin: 0 auto;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .logos div{
+        display: inline-block;
+        width: 300px;
+        height: 300px;
+        margin: 0;
+        margin-top: 30px;
+    }
+    .logos div:nth-child(1){margin-right: 20px;}
+    .logos div:nth-child(3){margin-right: 20px;}
+    .logos div:nth-child(5){margin-right: 20px;}
+
+    /* 사용자가 해탈하였습니다... */
+}
+@media screen and (max-width: 750px) {
+    #section1{
+        width: 100%;
+        height: 800px;
+    }
+    #section1 h2{
+        font-size: 20px;
+        text-align: right;
+        color: #fff;
+        line-height: 30px;
+        position: relative;
+        top: 200px;
+    }
+    #section1 h1{
+        font-size: 50px;
+        top: 200px;
+    }
+    #section2{
+        margin-top: -3px;
+        width: 100%;
+        height: auto;
+    }
+    .s2-left h3{
+        font-size: 40px;
+    }
+    .skills img:nth-child(6){
+        width: 100px;
+        margin-left: -25px;
+    }
+    .skills img:nth-child(7){
+        width: 70px;
+        margin-left: -35px;
+    }
+    .s2-right p{
+        font-size: 15px;
+    }
+    .s3-left a{
+        height: 300px;
+    }
+    .s3-right h4{
+        font-size: 30px;
+    }
+    .s3-right p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .s3-right a{
+        font-size: 15px;
+        display: inline-block;
+        padding: 8px 15px;
+        border-radius: 20px;
+        border: 2px solid #1739b1;
+        background: rgba(255,255,255,0.2);
+        color: #000;
+        margin: 0 10px 10px 0;
+        transition: all 0.2s;
+    }
+    .s4-left h4{
+        font-size: 25px;
+    }
+    .s4-left p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .s4-right a{
+        height: 300px;
+    }
+    .s5-left a{
+        height: 250px;
+    }
+    .s5-right h4{
+        font-size: 25px;
+    }
+    .s5-right p{
+        font-size: 15px; 
+        line-height: 25px;
+    }
+    .s6-left h4{
+        font-size: 30px;
+    }
+    .s6-left p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .s6-right a{
+        height: 250px;
+    }
+    #section2 .container.logos{}
+    #section2 .container.logos div{
+        width: 100%;
+        height: 100%;
+    }
+    #section2 .container.logos div img{
+        display: block;
+        object-fit:fill;
+    }
+    .gongcha{
+        width: 100%;
+        height: 600px;
+        position: relative;
+        background: #FFF8EE url('../img/gongcha.png') no-repeat center/contain;
+    }
+    .gongcha .container a{
+        position: absolute;
+        bottom: 50px;
+        right: 50px;
+        display: block;
+        font-size: 15px;
+        padding: 10px 20px;
+        border: 2px solid #C32033;
+        border-radius: 30px;
+        transition: all 0.3s;
+    }
+    .gongcha .container{
+        padding: 50px 0 0 50px;
+    }
+    .gongcha h5{
+        display: block;
+        font-size: 25px;
+        font-family: 'Noto Sans KR', sans-serif;
+        text-align: left;
+        color: #333;
+    }
+    footer{
+        padding: 0 0 50px 0;
+        width: 100%;
+        height: 400px;
+        background: url('../img/artur-luczka-loAfOVk1eNc-unsplash.jpg') no-repeat center/cover;
+    }
+    footer h3{
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 25px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        color: #fff;
+    }
+    .fbox p{
+        color: #000;
+        font-size: 18px;
+        display: inline-block;
+        line-height: 35px;
+    }
+    .fbox img{
+        display: inline-block;
+        width: 25px;
+        vertical-align:middle;
+        margin-right: 10px;
+    }
+}
